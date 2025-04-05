@@ -15,7 +15,7 @@ In this game, you explore an abandoned space station by scanning different areas
 1. Run the game:
 
    ```
-   python src/main.py [width] [height]
+   python main.py [width] [height]
    ```
 
    Where `[width]` and `[height]` are optional parameters to specify the board size (minimum 5x5).
@@ -67,7 +67,6 @@ To run tests with coverage:
 
 ```
 
-cd tests
 coverage run -m unittest discover
 coverage report -m
 
@@ -77,7 +76,7 @@ To run pylint:
 
 ```
 
-pylint src/main.py
+pylint main.py
 
 ```
 
@@ -85,6 +84,6 @@ To run mypy type checking:
 
 ```
 
-mypy src/main.py
+mypy main.py
 
 ```

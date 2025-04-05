@@ -68,14 +68,6 @@ The game provides a simple console-based user interface:
 
 ## Dependencies
 
-The game uses the following dependencies:
-
-- pylint 3.0.3: For code quality analysis
-- coverage 7.4.1: For test coverage measurement
-- mypy 1.8.0: For static type checking
-
-## Testing Results
-
 ### Unit Tests
 
 All unit tests pass successfully, covering:
